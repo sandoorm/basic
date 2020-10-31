@@ -7,4 +7,15 @@
   </PropertyGroup>
 
 
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="basic.tests\bin\Debug\netcoreapp3.1\basic.tests.deps.json" />
+    <Content Remove="basic.tests\bin\Debug\netcoreapp3.1\basic.tests.runtimeconfig.json" />
+    <Content Remove="basic.tests\bin\Debug\netcoreapp3.1\basic.tests.runtimeconfig.dev.json" />
+    <Content Remove="basic.test\bin\Debug\netcoreapp3.1\basic.test.deps.json" />
+    <Content Remove="basic.test\bin\Debug\netcoreapp3.1\basic.test.runtimeconfig.json" />
+    <Content Remove="basic.test\bin\Debug\netcoreapp3.1\basic.test.runtimeconfig.dev.json" />
+  </ItemGroup>
 </Project>
